@@ -91,8 +91,8 @@ Hadith #{number} – Narrated {narrator}:
     commentary = generate_commentary(prompt)
 
     # Prepare message
-    hadith_message = f"📜 **Hadith #{number} – Narrated {narrator}:**\n\n{text}"
-    commentary_message = f"@everyone\n🧠 **Commentary:**\n{commentary}"
+    hadith_message = f"---------------------------------------------------\n   False Profit Detector.....\n📜 **Hadith #{number} – Narrated {narrator}:**\n\n{text}"
+    commentary_message = f"\\n🧠 **Commentary:**\n{commentary}"
 
     if len(hadith_message) > 2000:
         hadith_message = hadith_message[:1997] + "..."
